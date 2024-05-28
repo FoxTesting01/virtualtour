@@ -93,19 +93,23 @@ header {
 }
 
 .entertainment {
-  background: url('../Images/entertainment.png');
+  background: url('../Images/VTN-ENTERTAINMENT-WEBSITE-FORMAT.jpg');
+  background-size: cover;
 }
 
 .edutrips {
-  background: url('../Images/edutrips.png');
+  background: url('../Images/VTN-EDUCATION-WEBSITE-FORMAT.jpg');
+  background-size: cover;
 }
 
 .events {
-  background: url('../Images/event.png');
+  background: url('../Images/VTN-OWAMBE WEBSITE-FORMAT.jpg');
+  background-size: cover;
 }
 
 .real-estate{
-  background: url('../Images/real-estate.png');
+  background: url('../Images/VTN-REAL-ESTATE-WEBSITE-FORMAT.jpg');
+  background-size: cover;
 }
 
 .service-content-cont {

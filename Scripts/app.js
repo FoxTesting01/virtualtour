@@ -4,6 +4,13 @@ slideFunction();
 
 slideFunctionPop();
 
+// document.querySelectorAll('.sliding-images img').forEach(elem => {
+//   elem.style.width = window.innerWidth + 'px'
+//   console.log(elem)
+// })
+
+console.log(window.innerHeight + 'px');
+
 const bars = document.querySelector('.pop-menu-bar');
 const spanElem = document.querySelector('.pop-menu-bar .bars-text');
 const barsIcon = document.querySelector('.pop-menu-bar i');
@@ -77,10 +84,10 @@ document.querySelector('.side-bars-options')
 
   const img = document.querySelectorAll('.sliding-images img, .sliding-images-cont, .sliding-images, .body-section')
 
-img.forEach(elem => {
-  elem.style.setProperty('--width', window.innerWidth + 'px')
+// img.forEach(elem => {
+//   elem.style.setProperty('--width', window.innerWidth + 'px')
 
-  elem.style.setProperty('--hight', window.innerHeight + 'px');
-});
+//   elem.style.setProperty('--hight', window.innerHeight + 'px');
+// });
 
 console.log(window.innerHeight + 'px');

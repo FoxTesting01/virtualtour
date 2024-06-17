@@ -46,6 +46,7 @@ export function slideFunctionPop() {
   const nextEl = document.querySelector('.next-pop')
   const prevEl = document.querySelector('.prev-pop')
   const slidingImages = document.querySelectorAll('.sliding-images-pop img')
+  
   const img = document.querySelector('.sliding-images-pop img')
 
   console.log(slidingImages.length);
